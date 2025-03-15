@@ -1,7 +1,0 @@
-{
-  "build": {
-    "builder": "static",
-    "buildCommand": "cd my-dance-blog && hugo --minify",
-    "outputDirectory": "my-dance-blog/public"
-  }
-}
