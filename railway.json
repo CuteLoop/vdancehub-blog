@@ -1,0 +1,8 @@
+{
+  "build": {
+    "builder": "static",
+    "installCommand": "curl -L https://github.com/gohugoio/hugo/releases/download/v0.122.0/hugo_extended_0.122.0_Linux-64bit.tar.gz | tar -xz -C /tmp && mv /tmp/hugo /usr/local/bin/hugo",
+    "buildCommand": "cd my-dance-blog && hugo --minify",
+    "outputDirectory": "my-dance-blog/public"
+  }
+}
