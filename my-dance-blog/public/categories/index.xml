@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Sparks of Connection</title>
-    <link>http://localhost:46147/categories/</link>
+    <link>http://localhost:45979/categories/</link>
     <description>Recent content in Categories on Sparks of Connection</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 22 Aug 2025 17:00:00 -0700</lastBuildDate>
-    <atom:link href="http://localhost:46147/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:45979/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Classes</title>
-      <link>http://localhost:46147/categories/classes/</link>
+      <link>http://localhost:45979/categories/classes/</link>
       <pubDate>Fri, 22 Aug 2025 17:00:00 -0700</pubDate>
-      <guid>http://localhost:46147/categories/classes/</guid>
+      <guid>http://localhost:45979/categories/classes/</guid>
       <description></description>
     </item>
     <item>
       <title>Dance</title>
-      <link>http://localhost:46147/categories/dance/</link>
+      <link>http://localhost:45979/categories/dance/</link>
       <pubDate>Fri, 22 Aug 2025 17:00:00 -0700</pubDate>
-      <guid>http://localhost:46147/categories/dance/</guid>
+      <guid>http://localhost:45979/categories/dance/</guid>
       <description></description>
     </item>
     <item>
       <title>Connection</title>
-      <link>http://localhost:46147/categories/connection/</link>
+      <link>http://localhost:45979/categories/connection/</link>
       <pubDate>Sun, 16 Mar 2025 13:53:24 -0700</pubDate>
-      <guid>http://localhost:46147/categories/connection/</guid>
+      <guid>http://localhost:45979/categories/connection/</guid>
       <description></description>
     </item>
     <item>
       <title>Partner Dancing</title>
-      <link>http://localhost:46147/categories/partner-dancing/</link>
+      <link>http://localhost:45979/categories/partner-dancing/</link>
       <pubDate>Sun, 16 Mar 2025 13:53:24 -0700</pubDate>
-      <guid>http://localhost:46147/categories/partner-dancing/</guid>
+      <guid>http://localhost:45979/categories/partner-dancing/</guid>
       <description></description>
     </item>
     <item>
       <title>Dance Symmetry</title>
-      <link>http://localhost:46147/categories/dance-symmetry/</link>
+      <link>http://localhost:45979/categories/dance-symmetry/</link>
       <pubDate>Sun, 16 Mar 2025 12:54:53 -0700</pubDate>
-      <guid>http://localhost:46147/categories/dance-symmetry/</guid>
+      <guid>http://localhost:45979/categories/dance-symmetry/</guid>
       <description></description>
     </item>
     <item>
       <title>Dance Mathematics</title>
-      <link>http://localhost:46147/categories/dance-mathematics/</link>
+      <link>http://localhost:45979/categories/dance-mathematics/</link>
       <pubDate>Sun, 16 Mar 2025 12:38:47 -0700</pubDate>
-      <guid>http://localhost:46147/categories/dance-mathematics/</guid>
+      <guid>http://localhost:45979/categories/dance-mathematics/</guid>
       <description></description>
     </item>
     <item>
       <title>Symmetry</title>
-      <link>http://localhost:46147/categories/symmetry/</link>
+      <link>http://localhost:45979/categories/symmetry/</link>
       <pubDate>Sun, 16 Mar 2025 12:38:47 -0700</pubDate>
-      <guid>http://localhost:46147/categories/symmetry/</guid>
+      <guid>http://localhost:45979/categories/symmetry/</guid>
       <description></description>
     </item>
     <item>
       <title>Dance Diary</title>
-      <link>http://localhost:46147/categories/dance-diary/</link>
+      <link>http://localhost:45979/categories/dance-diary/</link>
       <pubDate>Sun, 16 Mar 2025 11:30:45 -0700</pubDate>
-      <guid>http://localhost:46147/categories/dance-diary/</guid>
+      <guid>http://localhost:45979/categories/dance-diary/</guid>
       <description></description>
     </item>
   </channel>

@@ -1,0 +1,62 @@
+{{/* Sidebar CTA: Sign up for the course */}}
+{{- $leadEndpoint := site.Params.forms.leadEndpoint | default "" -}}
+{{- $signupURL    := site.Params.forms.signupURL    | default "/signup/" -}}
+
+<aside class="bg-zinc-100 rounded-3xl p-6">
+  <h3 class="text-2xl font-semibold mb-2">Join the Cumbia series</h3>
+  <p class="text-zinc-600 mb-4">No partner needed. Beginner & Intermediate.</p>
+
+  {{/* If a form endpoint is configured, show inline form; else show a button link */}}
+  {{ if $leadEndpoint }}
+    <form action="{{ $leadEndpoint }}" method="POST" class="space-y-3" novalidate>
+      <!-- Helpful context for your CRM -->
+      <input type="hidden" name="course_title" value="{{ .Title }}">
+      <input type="hidden" name="course_url" value="{{ .Permalink }}">
+      <input type="hidden" name="source" value="sidebar_hero">
+
+      <!-- Honeypot (spam trap) -->
+      <div class="hidden">
+        <label>Leave this empty <input type="text" name="_gotcha"></label>
+      </div>
+
+      <label class="block">
+        <span class="block text-sm mb-1">Name</span>
+        <input name="name" required
+               class="w-full rounded-xl border px-3 py-2 focus:outline-none focus:ring"
+               placeholder="Your name">
+      </label>
+
+      <label class="block">
+        <span class="block text-sm mb-1">Email</span>
+        <input type="email" name="email" required
+               class="w-full rounded-xl border px-3 py-2 focus:outline-none focus:ring"
+               placeholder="you@example.com">
+      </label>
+
+      <label class="block">
+        <span class="block text-sm mb-1">Level (optional)</span>
+        <select name="level" class="w-full rounded-xl border px-3 py-2">
+          <option value="">Choose level…</option>
+          <option>Beginner</option>
+          <option>Intermediate</option>
+        </select>
+      </label>
+
+      <!-- Optional redirect after submit (many form services honor this) -->
+      <input type="hidden" name="_redirect" value="{{ site.BaseURL }}thank-you/">
+
+      <button type="submit"
+              class="w-full inline-flex items-center justify-center rounded-full border px-5 py-3 font-semibold hover:bg-blue-100">
+        Sign up for the course
+      </button>
+
+      <p class="text-xs text-zinc-500 mt-1">We’ll email you details and how to pay. You can unsubscribe anytime.</p>
+    </form>
+  {{ else }}
+    <a href="{{ $signupURL }}"
+       class="w-full inline-flex items-center justify-center rounded-full border px-5 py-3 font-semibold hover:bg-blue-100">
+      Sign up for the course
+    </a>
+    <p class="text-xs text-zinc-500 mt-2">No partner needed • $40 series • $15 drop-in</p>
+  {{ end }}
+</aside>

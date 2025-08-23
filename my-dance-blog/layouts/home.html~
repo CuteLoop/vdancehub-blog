@@ -1,0 +1,18 @@
+{{ define "main" }}
+  {{/* Feature post or fallback square */}}
+  {{ $featureTag := default "feature" site.Params.home.featureTag }}
+  {{ $featured := first 1 (where .Site.RegularPages "Params.tags" "intersect" (slice $featureTag)) }}
+
+  {{ if gt (len $featured) 0 }}
+    {{ range $featured }}
+      {{ partial "content/hero" . }}
+    {{ end }}
+  {{ else }}
+    <!-- Fallback square (home.html) -->
+    <div class="min-h-[40vh] grid place-items-center" style="min-height:40vh;display:grid;place-items:center;">
+      <div class="w-16 h-16 bg-black" style="width:64px;height:64px;background:#000;"></div>
+    </div>
+  {{ end }}
+
+  {{/* ... your category + recent sections ... */}}
+{{ end }}
