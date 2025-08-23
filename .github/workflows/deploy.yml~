@@ -2,7 +2,7 @@ name: Deploy Hugo site to GitHub Pages
 
 on:
   push:
-    branches: [ main ]  # change if your default branch differs
+    branches: [ main ]   # change if your default branch differs
   workflow_dispatch:
 
 permissions:
@@ -14,19 +14,18 @@ concurrency:
   group: "pages"
   cancel-in-progress: true
 
-# Your Hugo site is in a subfolder
 defaults:
   run:
-    working-directory: my-dance-blog
+    working-directory: my-dance-blog   # 👈 your site is in this subfolder
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout (no submodules)
+      - name: Checkout (with submodules for themes)
         uses: actions/checkout@v4
         with:
-          submodules: false
+          submodules: recursive
 
       - name: Set up Node (for Tailwind/PostCSS)
         uses: actions/setup-node@v4
@@ -66,7 +65,7 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: my-dance-blog/public
+          path: my-dance-blog/public   # path is from repo root
 
   deploy:
     needs: build

@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"           # change to your real domain on deploy
+baseURL = "https://cuteloop.github.io/vdancehub-blog/"
 languageCode = "en-us"
 title = "Sparks of Connection"
 theme = "pehtheme-hugo"
