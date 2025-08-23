@@ -1,7 +1,5 @@
 .git
-.github
 **/node_modules
 **/.cache
 **/.hugo_build.lock
-my-dance-blog/public
 my-dance-blog/resources

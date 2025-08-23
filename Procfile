@@ -1,1 +1,1 @@
-web: caddy file-server --root my-dance-blog/public --listen :$PORT
+web: sh -lc 'echo "PWD=$(pwd)"; ls -lah /app; ls -lah /app/my-dance-blog || true; ls -lah /app/my-dance-blog/public || true; test -f /app/my-dance-blog/public/index.html || (echo "❌ missing index.html" && exit 1); caddy file-server --browse --root /app/my-dance-blog/public --listen :$PORT'

@@ -66,3 +66,7 @@ disqusShortname = ""
   [[module.mounts]]
     source = "assets"
     target = "static"
+    
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
