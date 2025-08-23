@@ -1,19 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Feature on Sparks of Connection</title>
-    <link>//localhost:40749/tags/feature/</link>
-    <description>Recent content in Feature on Sparks of Connection</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 22 Aug 2025 17:00:00 -0700</lastBuildDate>
-    <atom:link href="//localhost:40749/tags/feature/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>September Cumbia Classes (Tucson)</title>
-      <link>//localhost:40749/posts/2025/september-cumbia-classes-2025/</link>
-      <pubDate>Fri, 22 Aug 2025 17:00:00 -0700</pubDate>
-      <guid>//localhost:40749/posts/2025/september-cumbia-classes-2025/</guid>
-      <description>&lt;h2 id=&#34;september-cumbia-is-here-&#34;&gt;September Cumbia is here 💃🕺&lt;/h2&gt;&#xA;&lt;p&gt;Let’s dance! We’re running a 4-week Cumbia series designed to build connection, rhythm, and clean fundamentals — with variations that feel great on the social floor.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Feature on Sparks of Connection</title><link>/tags/feature/</link><description>Recent content in Feature on Sparks of Connection</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 22 Aug 2025 17:00:00 -0700</lastBuildDate><atom:link href="/tags/feature/index.xml" rel="self" type="application/rss+xml"/><item><title>September Cumbia Classes (Tucson)</title><link>/posts/2025/september-cumbia-classes-2025/</link><pubDate>Fri, 22 Aug 2025 17:00:00 -0700</pubDate><guid>/posts/2025/september-cumbia-classes-2025/</guid><description>&lt;h2 id="september-cumbia-is-here-">September Cumbia is here 💃🕺&lt;/h2>
+&lt;p>Let’s dance! We’re running a 4-week Cumbia series designed to build connection, rhythm, and clean fundamentals — with variations that feel great on the social floor.&lt;/p></description></item></channel></rss>

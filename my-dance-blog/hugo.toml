@@ -1,6 +1,6 @@
 baseURL = "/"  # <— trailing slash
-relativeURLs = true
-canonifyURLs = true
+relativeURLs = false
+canonifyURLs = false
 
 languageCode = "en-us"
 title = "Sparks of Connection"
