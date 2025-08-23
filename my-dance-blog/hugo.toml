@@ -1,4 +1,4 @@
-baseURL = "https://cuteloop.github.io/vdancehub-blog/"  # <— trailing slash
+baseURL = "/"  # <— trailing slash
 relativeURLs = true
 canonifyURLs = true
 
