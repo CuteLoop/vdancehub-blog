@@ -1,9 +1,31 @@
+/* Tailwind layers must come first */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* tiny theme tweaks */
+/* ===== Global type scale tweaks for portrait (mobile-first) ===== */
 @layer base {
-  html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+  /* Normal base (typically 16px) */
+  html { font-size: 16px; }
+
+  /* Bigger type when the device is vertical and narrow */
+  @media (orientation: portrait) and (max-width: 900px) {
+    html { font-size: 18px; }   /* bumps all rem-based text */
+    body { line-height: 1.65; }
+  }
 }
-/* ping 15:52:04 */
+
+/* ===== Orientation utilities for card grids ===== */
+@layer utilities {
+  /* Use this on grids that should stack in portrait and go 3-up in landscape */
+  .cards-orient {
+    display: grid;
+    gap: 1.5rem;                /* ~24px */
+    grid-template-columns: 1fr; /* portrait: vertical stack */
+  }
+  @media (orientation: landscape) {
+    .cards-orient {
+      grid-template-columns: repeat(3, minmax(0, 1fr));  /* landscape: 3 columns */
+    }
+  }
+}

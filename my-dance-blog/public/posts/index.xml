@@ -2,18 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Sparks of Connection</title>
-    <link>/posts/</link>
+    <link>//localhost:34731/posts/</link>
     <description>Recent content in Posts on Sparks of Connection</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 22 Aug 2025 17:00:00 -0700</lastBuildDate>
-    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:34731/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>September Cumbia Classes (Tucson)</title>
-      <link>/posts/2025/september-cumbia-classes-2025/</link>
+      <link>//localhost:34731/posts/2025/september-cumbia-classes-2025/</link>
       <pubDate>Fri, 22 Aug 2025 17:00:00 -0700</pubDate>
-      <guid>/posts/2025/september-cumbia-classes-2025/</guid>
+      <guid>//localhost:34731/posts/2025/september-cumbia-classes-2025/</guid>
       <description>&lt;h2 id=&#34;september-cumbia-is-here-&#34;&gt;September Cumbia is here 💃🕺&lt;/h2&gt;&#xA;&lt;p&gt;Let’s dance! We’re running a 4-week Cumbia series designed to build connection, rhythm, and clean fundamentals — with variations that feel great on the social floor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Connection and Weight Transfer</title>
+      <link>//localhost:34731/posts/2025/connection-and-weight-transfer/</link>
+      <pubDate>Sun, 16 Mar 2025 13:53:24 -0700</pubDate>
+      <guid>//localhost:34731/posts/2025/connection-and-weight-transfer/</guid>
+      <description>&lt;h2 id=&#34;connection-and-weight-transfer&#34;&gt;Connection and weight transfer&lt;/h2&gt;&#xA;&lt;h3 id=&#34;have-you-ever-wondered-how-tango-dancers-avoid-stepping-on-each-others-feet&#34;&gt;Have you ever wondered how tango dancers avoid stepping on each others feet?&lt;/h3&gt;&#xA;&lt;p&gt;It is all about understanding where your weight is and where your partner´s weight sits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dance Symmetries Pt2</title>
+      <link>//localhost:34731/posts/2025/dance-symmetries-pt2/</link>
+      <pubDate>Sun, 16 Mar 2025 12:54:53 -0700</pubDate>
+      <guid>//localhost:34731/posts/2025/dance-symmetries-pt2/</guid>
+      <description>&lt;h2 id=&#34;the-frieze-group&#34;&gt;The frieze group&lt;/h2&gt;&#xA;&lt;p&gt;The frieze group appears when we want to describe all possible Symmetries along an infinite line.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../assets/images/frieze.jpeg&#34; alt=&#34;Astronaut in Space&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dance Symmetries part 1</title>
+      <link>//localhost:34731/posts/2025/dance-symmetries/</link>
+      <pubDate>Sun, 16 Mar 2025 12:38:47 -0700</pubDate>
+      <guid>//localhost:34731/posts/2025/dance-symmetries/</guid>
+      <description>&lt;p&gt;We learn to dance by &amp;ldquo;mirroring&amp;rdquo; other people&amp;rsquo;s movements or trough our own explorations.&#xA;Understanding the symmetries of dance will help us in both tasks.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Dance Post</title>
+      <link>//localhost:34731/posts/2025/my-first-dance-post/</link>
+      <pubDate>Sun, 16 Mar 2025 11:30:45 -0700</pubDate>
+      <guid>//localhost:34731/posts/2025/my-first-dance-post/</guid>
+      <description>&lt;h2 id=&#34;this-dance-blog&#34;&gt;This dance blog&lt;/h2&gt;&#xA;&lt;p&gt;I enjoy learning about dance and this blog is for sharing interesting thigs I learn along my Journey.&#xA;My Journey starts with Partner dancing and social dancing with salsa, cumbia and bachata.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

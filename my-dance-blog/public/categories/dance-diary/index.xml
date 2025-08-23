@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dance Diary on Sparks of Connection</title>
-    <link>//localhost:1313/categories/dance-diary/</link>
+    <link>//localhost:34731/categories/dance-diary/</link>
     <description>Recent content in Dance Diary on Sparks of Connection</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 16 Mar 2025 11:30:45 -0700</lastBuildDate>
-    <atom:link href="//localhost:1313/categories/dance-diary/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:34731/categories/dance-diary/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Dance Post</title>
-      <link>//localhost:1313/posts/2025/my-first-dance-post/</link>
+      <link>//localhost:34731/posts/2025/my-first-dance-post/</link>
       <pubDate>Sun, 16 Mar 2025 11:30:45 -0700</pubDate>
-      <guid>//localhost:1313/posts/2025/my-first-dance-post/</guid>
+      <guid>//localhost:34731/posts/2025/my-first-dance-post/</guid>
       <description>&lt;h2 id=&#34;this-dance-blog&#34;&gt;This dance blog&lt;/h2&gt;&#xA;&lt;p&gt;I enjoy learning about dance and this blog is for sharing interesting thigs I learn along my Journey.&#xA;My Journey starts with Partner dancing and social dancing with salsa, cumbia and bachata.&lt;/p&gt;</description>
     </item>
   </channel>

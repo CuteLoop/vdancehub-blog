@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Symmetry on Sparks of Connection</title>
-    <link>//localhost:1313/categories/symmetry/</link>
+    <link>//localhost:34731/categories/symmetry/</link>
     <description>Recent content in Symmetry on Sparks of Connection</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 16 Mar 2025 12:38:47 -0700</lastBuildDate>
-    <atom:link href="//localhost:1313/categories/symmetry/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:34731/categories/symmetry/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dance Symmetries part 1</title>
-      <link>//localhost:1313/posts/2025/dance-symmetries/</link>
+      <link>//localhost:34731/posts/2025/dance-symmetries/</link>
       <pubDate>Sun, 16 Mar 2025 12:38:47 -0700</pubDate>
-      <guid>//localhost:1313/posts/2025/dance-symmetries/</guid>
+      <guid>//localhost:34731/posts/2025/dance-symmetries/</guid>
       <description>&lt;p&gt;We learn to dance by &amp;ldquo;mirroring&amp;rdquo; other people&amp;rsquo;s movements or trough our own explorations.&#xA;Understanding the symmetries of dance will help us in both tasks.&lt;/p&gt;</description>
     </item>
   </channel>
