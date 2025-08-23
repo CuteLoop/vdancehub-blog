@@ -1,6 +1,7 @@
 # railway.toml (repo root)
 [build]
 builder = "NIXPACKS"
+# Build CSS with Tailwind/PostCSS, then build Hugo into my-dance-blog/public
 buildCommand = """
 cd my-dance-blog
 npm ci
@@ -9,4 +10,5 @@ hugo --minify --baseURL ${BASE_URL:-/}
 """
 
 [start]
-command = "npx -y serve -s my-dance-blog/public -l ${PORT:-8080}"
+# Serve the generated static site on $PORT
+startCommand = "npx -y serve -s my-dance-blog/public -l ${PORT:-8080}"
