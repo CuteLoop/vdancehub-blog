@@ -2,88 +2,88 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:33909/categories/</loc>
+    <loc>//localhost:40749/categories/</loc>
     <lastmod>2025-08-22T17:00:00-07:00</lastmod>
   </url><url>
-    <loc>//localhost:33909/categories/classes/</loc>
+    <loc>//localhost:40749/categories/classes/</loc>
     <lastmod>2025-08-22T17:00:00-07:00</lastmod>
   </url><url>
-    <loc>//localhost:33909/tags/cumbia/</loc>
+    <loc>//localhost:40749/tags/cumbia/</loc>
     <lastmod>2025-08-22T17:00:00-07:00</lastmod>
   </url><url>
-    <loc>//localhost:33909/categories/dance/</loc>
+    <loc>//localhost:40749/categories/dance/</loc>
     <lastmod>2025-08-22T17:00:00-07:00</lastmod>
   </url><url>
-    <loc>//localhost:33909/tags/feature/</loc>
+    <loc>//localhost:40749/tags/feature/</loc>
     <lastmod>2025-08-22T17:00:00-07:00</lastmod>
   </url><url>
-    <loc>//localhost:33909/posts/</loc>
+    <loc>//localhost:40749/posts/</loc>
     <lastmod>2025-08-22T17:00:00-07:00</lastmod>
   </url><url>
-    <loc>//localhost:33909/posts/2025/september-cumbia-classes-2025/</loc>
+    <loc>//localhost:40749/posts/2025/september-cumbia-classes-2025/</loc>
     <lastmod>2025-08-22T17:00:00-07:00</lastmod>
   </url><url>
-    <loc>//localhost:33909/</loc>
+    <loc>//localhost:40749/</loc>
     <lastmod>2025-08-22T17:00:00-07:00</lastmod>
   </url><url>
-    <loc>//localhost:33909/tags/</loc>
+    <loc>//localhost:40749/tags/</loc>
     <lastmod>2025-08-22T17:00:00-07:00</lastmod>
   </url><url>
-    <loc>//localhost:33909/about/</loc>
+    <loc>//localhost:40749/about/</loc>
     <lastmod>2025-08-22T16:00:00-07:00</lastmod>
   </url><url>
-    <loc>//localhost:33909/categories/connection/</loc>
+    <loc>//localhost:40749/categories/connection/</loc>
     <lastmod>2025-03-16T13:53:24-07:00</lastmod>
   </url><url>
-    <loc>//localhost:33909/tags/connection/</loc>
+    <loc>//localhost:40749/tags/connection/</loc>
     <lastmod>2025-03-16T13:53:24-07:00</lastmod>
   </url><url>
-    <loc>//localhost:33909/posts/2025/connection-and-weight-transfer/</loc>
+    <loc>//localhost:40749/posts/2025/connection-and-weight-transfer/</loc>
     <lastmod>2025-03-16T13:53:24-07:00</lastmod>
   </url><url>
-    <loc>//localhost:33909/tags/dance/</loc>
+    <loc>//localhost:40749/tags/dance/</loc>
     <lastmod>2025-03-16T13:53:24-07:00</lastmod>
   </url><url>
-    <loc>//localhost:33909/categories/partner-dancing/</loc>
+    <loc>//localhost:40749/categories/partner-dancing/</loc>
     <lastmod>2025-03-16T13:53:24-07:00</lastmod>
   </url><url>
-    <loc>//localhost:33909/posts/2025/dance-symmetries-pt2/</loc>
+    <loc>//localhost:40749/posts/2025/dance-symmetries-pt2/</loc>
     <lastmod>2025-03-16T12:54:53-07:00</lastmod>
   </url><url>
-    <loc>//localhost:33909/categories/dance-symmetry/</loc>
+    <loc>//localhost:40749/categories/dance-symmetry/</loc>
     <lastmod>2025-03-16T12:54:53-07:00</lastmod>
   </url><url>
-    <loc>//localhost:33909/tags/dance-symmetry/</loc>
+    <loc>//localhost:40749/tags/dance-symmetry/</loc>
     <lastmod>2025-03-16T12:54:53-07:00</lastmod>
   </url><url>
-    <loc>//localhost:33909/tags/frieze-group/</loc>
+    <loc>//localhost:40749/tags/frieze-group/</loc>
     <lastmod>2025-03-16T12:54:53-07:00</lastmod>
   </url><url>
-    <loc>//localhost:33909/categories/dance-mathematics/</loc>
+    <loc>//localhost:40749/categories/dance-mathematics/</loc>
     <lastmod>2025-03-16T12:38:47-07:00</lastmod>
   </url><url>
-    <loc>//localhost:33909/tags/dance-mathematics/</loc>
+    <loc>//localhost:40749/tags/dance-mathematics/</loc>
     <lastmod>2025-03-16T12:38:47-07:00</lastmod>
   </url><url>
-    <loc>//localhost:33909/posts/2025/dance-symmetries/</loc>
+    <loc>//localhost:40749/posts/2025/dance-symmetries/</loc>
     <lastmod>2025-03-16T12:38:47-07:00</lastmod>
   </url><url>
-    <loc>//localhost:33909/tags/part1/</loc>
+    <loc>//localhost:40749/tags/part1/</loc>
     <lastmod>2025-03-16T12:38:47-07:00</lastmod>
   </url><url>
-    <loc>//localhost:33909/categories/symmetry/</loc>
+    <loc>//localhost:40749/categories/symmetry/</loc>
     <lastmod>2025-03-16T12:38:47-07:00</lastmod>
   </url><url>
-    <loc>//localhost:33909/tags/symmetry/</loc>
+    <loc>//localhost:40749/tags/symmetry/</loc>
     <lastmod>2025-03-16T12:38:47-07:00</lastmod>
   </url><url>
-    <loc>//localhost:33909/categories/dance-diary/</loc>
+    <loc>//localhost:40749/categories/dance-diary/</loc>
     <lastmod>2025-03-16T11:30:45-07:00</lastmod>
   </url><url>
-    <loc>//localhost:33909/tags/journey/</loc>
+    <loc>//localhost:40749/tags/journey/</loc>
     <lastmod>2025-03-16T11:30:45-07:00</lastmod>
   </url><url>
-    <loc>//localhost:33909/posts/2025/my-first-dance-post/</loc>
+    <loc>//localhost:40749/posts/2025/my-first-dance-post/</loc>
     <lastmod>2025-03-16T11:30:45-07:00</lastmod>
   </url>
 </urlset>

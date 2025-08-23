@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
 <head>
-	<meta name="generator" content="Hugo 0.148.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=33909&amp;path=livereload" data-no-instant defer></script>
+	<meta name="generator" content="Hugo 0.148.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=40749&amp;path=livereload" data-no-instant defer></script>
   <link rel="stylesheet" href="./css/main.css">
 <link rel="icon" href="./favicon.ico">
 
@@ -22,7 +22,7 @@
 				</span>
 			</button>
 			<div class="relative rounded-full py-1.5 px-6 bg-zinc-100 hover:bg-zinc-200 text-xl font-bold uppercase mx-2">
-				<h1><a class="before:content-[''] before:z-10 before:top-0 before:right-0 before:left-0 before:bottom-0 before:absolute before:pointer-events-auto" href="//localhost:33909/">Sparks of Connection</a></h1>
+				<h1><a class="before:content-[''] before:z-10 before:top-0 before:right-0 before:left-0 before:bottom-0 before:absolute before:pointer-events-auto" href="//localhost:40749/">Sparks of Connection</a></h1>
 			
 			</div>
 		</div>
@@ -74,31 +74,35 @@
 <section class="mb-12">
   <style>
      
-    @media (max-width: 767.98px) {
-      .stacked-card {
-        width: min(44rem, 92vw);
-        margin-inline: auto;
-      }
-    }
-    @media (min-width: 768px) {
-      .stacked-card {
-        width: auto;
-        margin-inline: 0;
-      }
+    .hero-grid { display: grid; gap: 1.5rem; align-items: start; }
+
+     
+    .desktop-sidebar { display: none; }     
+    .portrait-only  { display: block; }     
+
+     
+    .stacked-card { width: min(44rem, 92vw); margin-inline: auto; }
+
+     
+    @media (orientation: landscape) {
+      .hero-grid { grid-template-columns: 2fr 1fr; }
+      .desktop-sidebar { display: block; }
+      .portrait-only { display: none; }
+      .stacked-card { width: auto; margin-inline: 0; }
     }
   </style>
 
-  <div class="grid md:grid-cols-3 gap-6 items-start">
+  <div class="hero-grid">
 
     
-    <article class="stacked-card relative group bg-zinc-100 rounded-3xl overflow-hidden md:col-span-2">
+    <article class="stacked-card relative group bg-zinc-100 rounded-3xl overflow-hidden">
       
       <a class="absolute inset-0 z-20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-500 rounded-3xl"
          href="./posts/2025/september-cumbia-classes-2025/"
          aria-label="Open featured post: September Cumbia Classes (Tucson)"></a>
 
       
-      <div class="px-6 md:px-8 mt-4">
+      <div class="px-6 lg:px-8 mt-4">
         <figure class="aspect-[16/9] rounded-2xl overflow-hidden">
           <img
             src="./images/cumbia-september.png"
@@ -109,9 +113,9 @@
         </figure>
       </div>
 
-      <div class="px-6 md:px-8 pb-8 pt-4 relative z-10">
+      <div class="px-6 lg:px-8 pb-8 pt-4 relative z-10">
         <time class="opacity-70" datetime="2025-08-22 17:00:00 -0700 MST">Aug 22, 2025</time>
-        <h2 class="my-3 text-3xl md:text-4xl font-bold">September Cumbia Classes (Tucson)</h2>
+        <h2 class="my-3 text-3xl lg:text-4xl font-bold">September Cumbia Classes (Tucson)</h2>
         <p class="text-zinc-600">
           Thursdays in September — learn Cumbia from scratch or level up. No partner needed.
         </p>
@@ -124,7 +128,7 @@
     </article>
 
     
-    <aside class="hidden md:block md:col-span-1">
+    <aside class="desktop-sidebar">
       
         <aside class="bg-zinc-100 rounded-3xl p-6">
   <h3 class="text-2xl font-semibold mb-1">Reserve your seat</h3>
@@ -212,8 +216,8 @@
     </aside>
 
     
-    <aside class="stacked-card md:hidden bg-zinc-100 rounded-3xl overflow-hidden">
-      <div class="px-6 md:px-8 py-6">
+    <aside class="portrait-only stacked-card bg-zinc-100 rounded-3xl overflow-hidden">
+      <div class="px-6 lg:px-8 py-6">
         <h3 class="text-xl font-semibold mb-4 text-center">Reserve your seat</h3>
         <div class="space-y-3">
           <a href="./signup?course=beginner" class="w-full inline-flex justify-center items-center rounded-full border px-5 py-2 hover:bg-blue-100">Beginner Course</a>
@@ -244,15 +248,15 @@
   <section class="mb-16">
     <div class="flex items-center mb-6">
       <h2 class="text-3xl md:text-4xl font-bold mr-auto">Dance</h2>
-      <a class="border rounded-full py-2 px-4 md:px-6 hover:bg-blue-100" href="//localhost:33909/categories/dance">View All</a>
+      <a class="border rounded-full py-2 px-4 md:px-6 hover:bg-blue-100" href="//localhost:40749/categories/dance">View All</a>
     </div>
    <div class="grid grid-cols-1 md:grid-cols-3 gap-x-6 gap-y-10">
       
         <article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
 	
-	<a class="insert-link" href="//localhost:33909/posts/2025/september-cumbia-classes-2025/"></a>
+	<a class="insert-link" href="//localhost:40749/posts/2025/september-cumbia-classes-2025/"></a>
 
-	<figure class="w-full aspect-video overflow-hidden rounded-3xl"><img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="//localhost:33909/images/cumbia-september_hu_418081431e3125f0.png" alt="September Cumbia Classes (Tucson)" width="750" height="750">
+	<figure class="w-full aspect-video overflow-hidden rounded-3xl"><img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="//localhost:40749/images/cumbia-september_hu_418081431e3125f0.png" alt="September Cumbia Classes (Tucson)" width="750" height="750">
 
 	  </figure>
 
@@ -269,9 +273,9 @@
       
         <article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
 	
-	<a class="insert-link" href="//localhost:33909/posts/2025/connection-and-weight-transfer/"></a>
+	<a class="insert-link" href="//localhost:40749/posts/2025/connection-and-weight-transfer/"></a>
 
-	<figure class="w-full aspect-video overflow-hidden rounded-3xl"><img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="//localhost:33909/images/preillumination-seth-tWezx1tg8v4-unsplash_hu_288e8d41f6be123a.jpg" alt="Connection and Weight Transfer" width="750" height="341">
+	<figure class="w-full aspect-video overflow-hidden rounded-3xl"><img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="//localhost:40749/images/preillumination-seth-tWezx1tg8v4-unsplash_hu_288e8d41f6be123a.jpg" alt="Connection and Weight Transfer" width="750" height="341">
 
 	  </figure>
 
@@ -302,9 +306,9 @@
       
         <article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
 	
-	<a class="insert-link" href="//localhost:33909/posts/2025/september-cumbia-classes-2025/"></a>
+	<a class="insert-link" href="//localhost:40749/posts/2025/september-cumbia-classes-2025/"></a>
 
-	<figure class="w-full aspect-video overflow-hidden rounded-3xl"><img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="//localhost:33909/images/cumbia-september_hu_418081431e3125f0.png" alt="September Cumbia Classes (Tucson)" width="750" height="750">
+	<figure class="w-full aspect-video overflow-hidden rounded-3xl"><img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="//localhost:40749/images/cumbia-september_hu_418081431e3125f0.png" alt="September Cumbia Classes (Tucson)" width="750" height="750">
 
 	  </figure>
 
@@ -321,9 +325,9 @@
       
         <article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
 	
-	<a class="insert-link" href="//localhost:33909/posts/2025/connection-and-weight-transfer/"></a>
+	<a class="insert-link" href="//localhost:40749/posts/2025/connection-and-weight-transfer/"></a>
 
-	<figure class="w-full aspect-video overflow-hidden rounded-3xl"><img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="//localhost:33909/images/preillumination-seth-tWezx1tg8v4-unsplash_hu_288e8d41f6be123a.jpg" alt="Connection and Weight Transfer" width="750" height="341">
+	<figure class="w-full aspect-video overflow-hidden rounded-3xl"><img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="//localhost:40749/images/preillumination-seth-tWezx1tg8v4-unsplash_hu_288e8d41f6be123a.jpg" alt="Connection and Weight Transfer" width="750" height="341">
 
 	  </figure>
 
@@ -340,9 +344,9 @@
       
         <article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
 	
-	<a class="insert-link" href="//localhost:33909/posts/2025/dance-symmetries-pt2/"></a>
+	<a class="insert-link" href="//localhost:40749/posts/2025/dance-symmetries-pt2/"></a>
 
-	<figure class="w-full aspect-video overflow-hidden rounded-3xl"><img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="//localhost:33909/images/ketan-rajput-n-g7dgwNZg4-unsplash_hu_47149919fbc9ea24.jpg" alt="Dance Symmetries Pt2" width="750" height="500">
+	<figure class="w-full aspect-video overflow-hidden rounded-3xl"><img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="//localhost:40749/images/ketan-rajput-n-g7dgwNZg4-unsplash_hu_47149919fbc9ea24.jpg" alt="Dance Symmetries Pt2" width="750" height="500">
 
 	  </figure>
 
@@ -359,9 +363,9 @@
       
         <article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
 	
-	<a class="insert-link" href="//localhost:33909/posts/2025/dance-symmetries/"></a>
+	<a class="insert-link" href="//localhost:40749/posts/2025/dance-symmetries/"></a>
 
-	<figure class="w-full aspect-video overflow-hidden rounded-3xl"><img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="//localhost:33909/images/julia-caesar-3VmiRM4vW2Y-unsplash_hu_2e20f42079084c8e.jpg" alt="Dance Symmetries part 1" width="750" height="500">
+	<figure class="w-full aspect-video overflow-hidden rounded-3xl"><img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="//localhost:40749/images/julia-caesar-3VmiRM4vW2Y-unsplash_hu_2e20f42079084c8e.jpg" alt="Dance Symmetries part 1" width="750" height="500">
 
 	  </figure>
 
@@ -378,9 +382,9 @@
       
         <article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
 	
-	<a class="insert-link" href="//localhost:33909/posts/2025/my-first-dance-post/"></a>
+	<a class="insert-link" href="//localhost:40749/posts/2025/my-first-dance-post/"></a>
 
-	<figure class="w-full aspect-video overflow-hidden rounded-3xl"><img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="//localhost:33909/images/default_hu_4f713a4a4ab3693a.jpg" alt="My First Dance Post" width="750" height="500">
+	<figure class="w-full aspect-video overflow-hidden rounded-3xl"><img class="object-cover group-hover:scale-105 transition duration-500 cursor-pointer" src="//localhost:40749/images/default_hu_4f713a4a4ab3693a.jpg" alt="My First Dance Post" width="750" height="500">
 
 	  </figure>
 
@@ -425,7 +429,7 @@
       </a>
     </nav>
   </div>
-  <script type="application/ld+json">"{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"name\":\"Sparks of Connection\",\"sameAs\":[\"https://www.facebook.com/sparksofconnection\",\"https://www.instagram.com/sparksofconnection/\"],\"url\":\"//localhost:33909/\"}"</script>
+  <script type="application/ld+json">"{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"name\":\"Sparks of Connection\",\"sameAs\":[\"https://www.facebook.com/sparksofconnection\",\"https://www.instagram.com/sparksofconnection/\"],\"url\":\"//localhost:40749/\"}"</script>
 </footer>
 </footer>
       <script src="./js/insertoggle.js"></script>
