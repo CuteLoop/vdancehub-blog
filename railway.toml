@@ -1,0 +1,14 @@
+# railway.toml (repo root)
+[build]
+builder = "NIXPACKS"
+# Build CSS (Tailwind/PostCSS), then Hugo
+buildCommand = """
+cd my-dance-blog
+npm ci
+npx tailwindcss -i assets/input.css -o static/css/main.css --postcss --minify
+hugo --minify --baseURL ${BASE_URL:-/}
+"""
+
+[start]
+# Serve the static output on the port Railway provides
+startCommand = "npx -y serve -s my-dance-blog/public -l ${PORT:-8080}"
