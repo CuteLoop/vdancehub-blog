@@ -1,49 +1,65 @@
-baseURL = 'https://pehtheme-hugo.netlify.app/'
-languageCode = 'en-us'
-title = 'Pehtheme'
-theme = 'pehtheme-hugo'
+baseURL = "http://localhost:1313/"           # change to your real domain on deploy
+languageCode = "en-us"
+title = "Sparks of Connection"
+theme = "pehtheme-hugo"
 publishDir = "public"
 
+summaryLength = 20
+googleAnalytics = ""
+disqusShortname = ""
 
-paginate = '6' # <- Set the desired number of posts per page 
-summaryLength = '20' # <- 20 words are approximately 160 characters
-googleAnalytics = 'G-MEASUREMENT_ID' # <- Your GA-4
-disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.com
+[pagination]
+  pagerSize = 10
 
+[taxonomies]
+  category = "categories"
+  tag = "tags"
 
 [params]
-	# Meta description, not exceeding 160 characters, used for the meta description within the HTML head
-	description = 'Pehtheme Hugo Lite: A minimalist Hugo theme, built with TailwindCSS, for efficient performance and minimalism.'
-	mainSections = 'posts'
+  description = "Cumbia, salsa, bachata — notes from the floor."
+  mainSections = ["posts"]
+  brand = "Sparks of Connection"
+
+  [params.home]
+    featureTag = "feature"      # any post with this tag becomes the hero
+    category  = "dance"         # section block title + filter (set "" to hide)
+
+  [params.social]
+    facebook  = "https://www.facebook.com/sparksofconnection"
+    instagram = "https://www.instagram.com/sparksofconnection/"
 
 [author]
-	name = 'Joel'
-	bio = 'Debitis assumenda esse dignissimos aperiam delectus maxime tenetur repudiandae dolore'
-	avatar = '/images/nasa-astronaut-unsplash.jpg'
-	twitter = 'https://twitter.com/insertapps'
+  name = "Joel"
+  bio = "Applied math by day, dancer by night."
+  avatar = "/images/nasa-astronaut-unsplash.jpg"
+  twitter = "https://twitter.com/insertapps"
 
-[menu] # Menu management
-	[[menu.main]]
-		name = 'Home'
-		pageRef = '/'
-		weight = 10
-	[[menu.main]]
-		name = 'About'
-		pageRef = '/about'
-		weight = 15
-	[[menu.main]]
-		name = 'Tags'
-		pageRef = '/tags'
-		weight = 20
-	[[menu.main]]
-		name = 'Taxonomy'
-		pageRef = '/tags/space/'
-		weight = 25
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    name = "About"
+    pageRef = "about"           # matches content/about.md or content/about/_index.md
+    weight = 15
+
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 20
+
+  [[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 25
 
 [module]
   [module.hugoVersion]
-    extended = false
-    min = "0.116.0"
-  [module.mounts] # Directing the static folder to assets.
-  	source = 'assets'
-  	target = 'static'
+    extended = true
+    min = "0.148.0"
+
+  [[module.mounts]]
+    source = "assets"
+    target = "static"

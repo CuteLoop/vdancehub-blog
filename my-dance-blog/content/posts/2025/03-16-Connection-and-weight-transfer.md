@@ -6,10 +6,12 @@ description: "Add a brief description of your post here."
 image: "images/preillumination-seth-tWezx1tg8v4-unsplash.jpg"
 caption: "Photo by [Photographer] on [Source]"
 categories:
-  - "Partner Dancing"
+  - "partner dancing"
   - "connection"
+  - "dance"
 tags:
   - "connection"
+  - "dance"
 draft: true
 ---
 ## Connection and weight transfer

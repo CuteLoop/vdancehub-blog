@@ -6,9 +6,10 @@ description: "Add a brief description of your post here."
 image: "images/default.jpg"
 caption: "Picture taken from ahmad-odeh via unsplash.com"
 categories:
-  - "DanceDiary"
+  - "dance diary"
 tags:
   - "Journey"
+  
 draft: true
 ---
 
