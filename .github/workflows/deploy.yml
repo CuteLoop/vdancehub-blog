@@ -1,8 +1,9 @@
+# .github/workflows/deploy.yml  (repo root)
 name: Deploy Hugo site to GitHub Pages
 
 on:
   push:
-    branches: [ main ]  # change if your default branch differs
+    branches: [ main ]         # change if your default branch differs
   workflow_dispatch:
 
 permissions:
@@ -14,10 +15,9 @@ concurrency:
   group: "pages"
   cancel-in-progress: true
 
-# Your Hugo site is in a subfolder
 defaults:
   run:
-    working-directory: my-dance-blog
+    working-directory: my-dance-blog   # 👈 run all commands inside the site folder
 
 jobs:
   build:
@@ -28,7 +28,10 @@ jobs:
         with:
           submodules: false
 
-      - name: Set up Node (for Tailwind/PostCSS)
+      - name: Print tree (repo root)
+        run: ls -la ..
+      
+      - name: Set up Node (Tailwind/PostCSS)
         uses: actions/setup-node@v4
         with:
           node-version: 20
@@ -61,8 +64,20 @@ jobs:
       - name: Build Hugo
         env:
           HUGO_ENV: production
-        run: hugo --minify
+        run: |
+          echo "Using baseURL from hugo.toml:"
+          grep -E '^baseURL' hugo.toml || true
+          hugo --minify
 
+      - name: Sanity check build output
+        run: |
+          echo "Public dir contents:"
+          ls -lah public || true
+          test -f public/index.html || (echo "::error::No public/index.html – Hugo build failed or wrong path" && exit 1)
+          # Avoid Jekyll processing just in case
+          touch public/.nojekyll
+
+      # IMPORTANT: path is relative to REPO ROOT, so include the subfolder.
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

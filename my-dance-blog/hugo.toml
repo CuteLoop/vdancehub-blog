@@ -1,4 +1,7 @@
-baseURL = "https://cuteloop.github.io/vdancehub-blog/"
+baseURL = "https://cuteloop.github.io/vdancehub-blog/"  # <— trailing slash
+relativeURLs = true
+canonifyURLs = true
+
 languageCode = "en-us"
 title = "Sparks of Connection"
 theme = "pehtheme-hugo"
