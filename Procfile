@@ -1,1 +1,1 @@
-web: npx -y serve -s my-dance-blog/public -l $PORT
+web: caddy file-server --root my-dance-blog/public --listen :$PORT

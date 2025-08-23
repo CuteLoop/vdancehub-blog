@@ -1,0 +1,11 @@
+:{$PORT}
+root * my-dance-blog/public
+encode zstd gzip
+# Cache static assets a week (optional)
+header /assets/* Cache-Control "public, max-age=604800"
+header /css/*     Cache-Control "public, max-age=604800"
+header /js/*      Cache-Control "public, max-age=604800"
+file_server
+
+# SPA fallback: if file/dir not found, serve index.html
+try_files {path} {path}/ /index.html
