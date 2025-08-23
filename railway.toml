@@ -1,12 +1,6 @@
-# railway.toml (repo root)
 [build]
 builder = "NIXPACKS"
-buildCommand = """
-cd my-dance-blog
-npm ci
-npx tailwindcss -i assets/input.css -o static/css/main.css --postcss --minify
-hugo --minify --baseURL ${BASE_URL:-/}
-"""
+buildCommand = "echo skip-build"
 
 [start]
-command = "npx -y serve -s my-dance-blog/public -l ${PORT:-8080}"
+command = "caddy file-server --root my-dance-blog/public --listen :${PORT:-8080}"
