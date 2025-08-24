@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Frieze Group on Sparks of Connection</title>
-    <link>//localhost:37027/tags/frieze-group/</link>
+    <link>//localhost:35673/tags/frieze-group/</link>
     <description>Recent content in Frieze Group on Sparks of Connection</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 16 Mar 2025 12:54:53 -0700</lastBuildDate>
-    <atom:link href="//localhost:37027/tags/frieze-group/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:35673/tags/frieze-group/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dance Symmetries Pt2</title>
-      <link>//localhost:37027/posts/2025/dance-symmetries-pt2/</link>
+      <link>//localhost:35673/posts/2025/dance-symmetries-pt2/</link>
       <pubDate>Sun, 16 Mar 2025 12:54:53 -0700</pubDate>
-      <guid>//localhost:37027/posts/2025/dance-symmetries-pt2/</guid>
-      <description>&lt;h2 id=&#34;the-frieze-group&#34;&gt;The frieze group&lt;/h2&gt;&#xA;&lt;p&gt;The frieze group appears when we want to describe all possible Symmetries along an infinite line.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:37027/assets/images/frieze.jpeg&#34; alt=&#34;Astronaut in Space&#34;&gt;&lt;/p&gt;</description>
+      <guid>//localhost:35673/posts/2025/dance-symmetries-pt2/</guid>
+      <description>&lt;h2 id=&#34;the-frieze-group&#34;&gt;The frieze group&lt;/h2&gt;&#xA;&lt;p&gt;The frieze group appears when we want to describe all possible Symmetries along an infinite line.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:35673/assets/images/frieze.jpeg&#34; alt=&#34;Astronaut in Space&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

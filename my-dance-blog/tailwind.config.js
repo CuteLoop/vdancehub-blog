@@ -1,16 +1,21 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
- content: [
-    "./layouts/**/*.html",
+  content: [
+    "./layouts/**/*.{html,xml,tmpl,md}",
     "./content/**/*.{md,html}",
-    "./themes/**/layouts/**/*.html", // include theme templates too
-    "./assets/**/*.js"
+    "./themes/**/*.{html,xml,tmpl,md}",
+    "./assets/**/*.{js,ts}"
   ],
-  safelist: [
-    "w-2/3",
-    "w-8/12",
-    "w-[66.666667%]",
-    "mx-auto"
-  ],
-  theme: { extend: {} },
-  plugins: [require("@tailwindcss/typography")],
+  theme: {
+    extend: {
+      fontFamily: {
+        display: ["Poppins", "ui-sans-serif", "system-ui", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"],
+        body: ["Inter", "ui-sans-serif", "system-ui", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"],
+      },
+      letterSpacing: {
+        wideish: ".02em",
+      }
+    },
+  },
+  plugins: [],
 };

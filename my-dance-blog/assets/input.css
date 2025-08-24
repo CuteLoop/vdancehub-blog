@@ -2,26 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Readable type in portrait */
+/* --- Global readable type --- */
 @layer base {
+  /* Default desktop/laptop */
+  html { font-size: 16px; }
+  body { line-height: 1.6; }
+
+  /* Fluid headings (scale with root size) */
+  h1, .site-title { font-size: clamp(1.75rem, 3.2vw + .5rem, 2.25rem); text-wrap: balance; }
+  h2 { font-size: clamp(1.375rem, 2.6vw + .6rem, 1.875rem); text-wrap: balance; }
+  h3 { font-size: clamp(1.125rem, 2vw + .5rem, 1.5rem); }
+
+  /* --- Portrait phones/tablets: bigger, looser line-height --- */
   @media (max-aspect-ratio: 1/1) {
-    html { font-size: 18px; }   /* bumps rem across the site */
-    body { line-height: 1.65; }
+    /* Bump everything that uses rem */
+    html { font-size: 20px; }     /* was 18 —> much easier to read */
+    body { line-height: 1.7; }
+
+    /* Make common UI text a bit larger too */
+    p, li, summary, a, button { font-size: 1.0625rem; }  /* ≈ 17px @16 → ≈ 21px @20 */
+    small, .text-xs { font-size: 0.9rem !important; }    /* keep “small” readable */
+
+    /* Headings scale up automatically via rem, but add a nudge */
+    h1, .site-title { font-size: clamp(2rem, 5vw + .5rem, 2.5rem); }
+    h2 { font-size: clamp(1.5rem, 4vw + .4rem, 2rem); }
+    h3 { font-size: clamp(1.25rem, 3.2vw + .3rem, 1.625rem); }
+  }
+
+  /* Respect reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; }
   }
 }
 
-/* Utilities used by home layout */
+/* Your existing utilities can stay as-is */
 @layer utilities {
-  /* Same outer width & margins for stacked sections */
   .stacked-wrap { width: min(44rem, 92vw); margin-inline: auto; }
   @media (min-aspect-ratio: 1/1) { .stacked-wrap { width: auto; margin-inline: 0; } }
 
-  /* Card grids: 1 col on phones, 2 on wide phones, 3 when landscape/desktop */
   .cards { display: grid; gap: 1.5rem; }
   @media (max-aspect-ratio: 1/1) { .cards { grid-template-columns: 1fr; } }
   @media (max-aspect-ratio: 1/1) and (min-width: 480px) { .cards { grid-template-columns: repeat(2, minmax(0,1fr)); } }
   @media (min-aspect-ratio: 1/1) { .cards { grid-template-columns: repeat(3, minmax(0,1fr)); } }
 
-  /* Tighter section spacing on phones */
   @media (max-aspect-ratio: 1/1) { .section-tight { margin-bottom: 1.25rem !important; } }
 }
