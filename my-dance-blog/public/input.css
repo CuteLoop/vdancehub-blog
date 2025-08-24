@@ -1,31 +1,27 @@
-/* Tailwind layers must come first */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* ===== Global type scale tweaks for portrait (mobile-first) ===== */
+/* Readable type in portrait */
 @layer base {
-  /* Normal base (typically 16px) */
-  html { font-size: 16px; }
-
-  /* Bigger type when the device is vertical and narrow */
-  @media (orientation: portrait) and (max-width: 900px) {
-    html { font-size: 18px; }   /* bumps all rem-based text */
+  @media (max-aspect-ratio: 1/1) {
+    html { font-size: 18px; }   /* bumps rem across the site */
     body { line-height: 1.65; }
   }
 }
 
-/* ===== Orientation utilities for card grids ===== */
+/* Utilities used by home layout */
 @layer utilities {
-  /* Use this on grids that should stack in portrait and go 3-up in landscape */
-  .cards-orient {
-    display: grid;
-    gap: 1.5rem;                /* ~24px */
-    grid-template-columns: 1fr; /* portrait: vertical stack */
-  }
-  @media (orientation: landscape) {
-    .cards-orient {
-      grid-template-columns: repeat(3, minmax(0, 1fr));  /* landscape: 3 columns */
-    }
-  }
+  /* Same outer width & margins for stacked sections */
+  .stacked-wrap { width: min(44rem, 92vw); margin-inline: auto; }
+  @media (min-aspect-ratio: 1/1) { .stacked-wrap { width: auto; margin-inline: 0; } }
+
+  /* Card grids: 1 col on phones, 2 on wide phones, 3 when landscape/desktop */
+  .cards { display: grid; gap: 1.5rem; }
+  @media (max-aspect-ratio: 1/1) { .cards { grid-template-columns: 1fr; } }
+  @media (max-aspect-ratio: 1/1) and (min-width: 480px) { .cards { grid-template-columns: repeat(2, minmax(0,1fr)); } }
+  @media (min-aspect-ratio: 1/1) { .cards { grid-template-columns: repeat(3, minmax(0,1fr)); } }
+
+  /* Tighter section spacing on phones */
+  @media (max-aspect-ratio: 1/1) { .section-tight { margin-bottom: 1.25rem !important; } }
 }
